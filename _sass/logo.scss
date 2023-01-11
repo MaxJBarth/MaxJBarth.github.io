@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+section.logo{
+  width: 100vw;
+  height: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(21deg, rgba(0,0,0,1) 0%, rgba(22,109,59,1) 70%);
+
+
+  img{
+    width: 21%;
+    max-width: 210px;
+  }
+}
