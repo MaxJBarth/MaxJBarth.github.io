@@ -1,0 +1,13 @@
+footer{
+  .wrapper{
+    .footer-col-wrapper{
+      display: flex;
+      justify-content: center;
+
+      .social-media-list{
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
