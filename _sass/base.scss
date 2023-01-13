@@ -38,7 +38,22 @@ $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 $table-text-align: left !default;
 
-$color-text:       #111;
+$color-text:               #111;
+$color-green-darkforest:   #051f20;
+$color-green-forest:       #0b2b26;
+$color-green:              #235347;
+$color-green-light:        #8eb69b;
+$color-white-green:        #daf1de;
+$color-bitcoin:            #f7931a;
+$color-grey-light:         #646E74;
+$color-grey-dark:          #1C1F20;
+$color-black:              #0d1117;
+
+
+//overall styles
+body{
+  background-color: $color-black;
+}
 
 // Import partials.
 @import
