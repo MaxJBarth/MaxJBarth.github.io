@@ -1,0 +1,28 @@
+// Define grid
+body{
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: 
+    "header header header"
+    "logo logo logo"
+    ". timeline ."
+    ". main ."
+    "footer footer footer";
+}
+
+header{
+  grid-area: header;
+}
+section.logo{
+  grid-area: logo;
+}
+.timeline{
+  grid-area: timeline;
+}
+main{
+  grid-area:main;
+}
+footer{
+  grid-area: footer;
+}

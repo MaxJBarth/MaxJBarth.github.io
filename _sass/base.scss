@@ -40,10 +40,9 @@ $table-text-align: left !default;
 
 $color-text:       #111;
 
-
-
 // Import partials.
 @import
+  "grid",
   "logo",
   "timeline"
 ;
