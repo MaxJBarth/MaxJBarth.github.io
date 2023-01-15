@@ -1,13 +1,42 @@
 footer{
   .wrapper{
-    .footer-col-wrapper{
-      display: flex;
-      justify-content: center;
+    border-top: 1px solid;
+    border-color: $color-bitcoin;
+    color: $color-white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
 
-      .social-media-list{
-        display: flex;
-        justify-content: center;
+    @media(max-width: $bp-small){
+      flex-flow: column;
+    }
+  
+    .social-media-list{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      list-style: none;
+      padding: 1rem;
+      li{
+        margin: 0 1rem;
+        .svg-icon {
+          width: 1.25em;
+          height: 1.25em;
+          display: inline-block;
+          vertical-align: middle;
+          fill: $color-white;
+          transition: 0.3s;
+          &:hover{
+            fill: $color-bitcoin;
+          }
+        }
+      }
+  
+      .username{
+        display:none;
       }
     }
+
   }
 }

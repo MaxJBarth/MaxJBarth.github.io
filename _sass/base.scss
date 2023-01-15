@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-//Reset defaults
+//reset defaults
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -29,7 +29,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 
-// Define defaults for each variable.
+//defaults
 
 $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $base-font-size:   16px !default;
@@ -48,7 +48,13 @@ $color-bitcoin:            #f7931a;
 $color-grey-light:         #646E74;
 $color-grey-dark:          #1C1F20;
 $color-black:              #0d1117;
+$color-white:              #ffffff;
 
+//breakpoints
+$bp-small:        576px;
+$bp-medium:       768px;
+$bp-large:        992px;
+$bp-extra-large:  1200px;
 
 //overall styles
 body{
@@ -56,11 +62,7 @@ body{
   font-family: sans-serif;
 }
 
-body{
- 
-}
-
-// Import partials.
+//import scss
 @import
   "grid",
   "footer",
