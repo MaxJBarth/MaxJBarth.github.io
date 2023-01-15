@@ -2,15 +2,31 @@
 
 section.logo{
   width: 100%;
-  height: 30vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(21deg, rgba(0,0,0,1) 0%, rgba(22,109,59,1) 70%);
+  background: rgb(12,39,44);
+  background: linear-gradient(39deg, rgba(12,39,44,1) 0%, rgba(14,103,85,1) 27%, rgba(12,19,33,1) 27%, rgba(12,104,87,1) 47%, rgba(12,19,33,1) 47%, rgba(12,104,87,1) 64%, rgba(12,19,33,0) 64%);
+  background-size: 400% 400%;
+  animation-name: shades-open;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
 
+  @keyframes shades-open{
+    from{
+      background-position: 0% 100%;
+    }
+    to{
+      background-position: 100% 0%;    
+    }
+  }
 
-  img{
+  svg{
     width: 21%;
     max-width: 210px;
+    z-index: -1;
   }
 }
