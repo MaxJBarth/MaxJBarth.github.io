@@ -1,16 +1,21 @@
 <section class="timeline">
 
   {%- if site.posts.size > 0 -%}
-    <ul class="post-list">
+    <ul class="timeline_wrapper">
       {%- for post in site.posts -%}
-      <li class="card">
-        <a class="post-link" href="{{ post.url | relative_url }}">
+      <li class="timeline_section {{ post.class }}">
+        <a class="timeline_content" href="{{ post.url | relative_url }}">
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3>
-              {{ post.title | escape }}
-          </h3>
-          <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+          
+          <span class="content_date">{{ post.timespan}}</span>
+          
+          <div class="content_wrapper">
+            <h3>
+                {{ post.title | escape }}
+            </h3>
+            <p>{{ post.subtitle }}</p>
+          </div>
+
         </a>
       </li>
       {%- endfor -%}

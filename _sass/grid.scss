@@ -4,8 +4,16 @@
   grid-template-columns: 1fr 10fr 1fr;
   grid-template-areas: 
     "logo logo logo"
-    ". timeline ."
+    "timeline timeline timeline"
     ". main .";
+}
+
+.timeline_content{
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  grid-template-areas: 
+    "timeline_date timeline_content";
+  align-items: center;
 }
 
 header{
@@ -16,6 +24,12 @@ header{
 }
 .timeline{
   grid-area: timeline;
+  .content_date{
+    grid-area: timeline_date;
+  }
+  .content_wrapper{
+    grid-area: timeline_content
+  }
 }
 main{
   grid-area:main;
