@@ -1,8 +1,11 @@
 ---
 layout: post
-title:  "Post 2"
-date:   2023-01-02 01:00:00 +0100
-categories: jekyll update
+date:   2020-12-31 09:00:00 +0100
+title:  factory42
+subtitle: Salesforce Developer
+timespan: "May '19 – December ‘20"
+categories: Workplaces
+class: factory42
 ---
 Bitcoin ipsum dolor sit amet. Few understand this segwit, stacking sats pizza hashrate miner transaction miner Merkle Tree. Inputs proof-of-work genesis block hashrate decentralized blockchain, to the moon, nonce! Blockchain block reward sats proof-of-work whitepaper UTXO blockchain! Satoshis full node satoshis nonce, wallet stacking sats block height.
 

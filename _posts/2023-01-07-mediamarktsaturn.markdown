@@ -1,8 +1,11 @@
 ---
 layout: post
-title:  "Post 1"
-date:   2023-01-01 01:00:00 +0100
-categories: jekyll update
+date:   2019-04-30 09:00:00 +0100
+title:  MediaMarktSaturn
+subtitle: Apprenticeship • Web Developer
+timespan: "September ‘14 – April ‘19"
+categories: Workplaces
+class: redblue
 ---
 Bitcoin ipsum dolor sit amet. Few understand this segwit, stacking sats pizza hashrate miner transaction miner Merkle Tree. Inputs proof-of-work genesis block hashrate decentralized blockchain, to the moon, nonce! Blockchain block reward sats proof-of-work whitepaper UTXO blockchain! Satoshis full node satoshis nonce, wallet stacking sats block height.
 
