@@ -25,19 +25,23 @@ $on-large: 1em;
 /**
  * Posts
  */
-.post-header {
-  margin-bottom: $spacing-unit;
-}
+ .post{
+  margin-top: 5rem;
+  .post-header {
+    margin-bottom: $spacing-unit;
+  }
 
-.post-title,
-.post-content h1 {
-  letter-spacing: -1px;
-  line-height: 1.15;
-}
+  .post-title,
+  .post-content h1 {
+    letter-spacing: -1px;
+    line-height: 1.15;
+  }
 
-.post-content {
-  margin-bottom: $spacing-unit;
+  .post-content {
+    margin-bottom: $spacing-unit;
 
-  h1, h2, h3, h4, h5, h6 { margin-top: $spacing-unit }
-
+    h1, h2, h3, h4, h5, h6 { 
+      margin-top: $spacing-unit 
+    }
+  }
 }

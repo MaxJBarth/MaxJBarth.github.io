@@ -1,4 +1,12 @@
 // Define grid
+main{
+  display: grid;
+  grid-template-columns: 12fr;
+  grid-template-areas: 
+    "navigation"
+    "wrapper";
+}
+
 .home{
   display: grid;
   grid-template-columns: 1fr 10fr 1fr;
@@ -6,6 +14,14 @@
     "logo logo logo"
     "timeline timeline timeline"
     ". main .";
+}
+
+.post{
+  display: grid;
+  grid-template-columns: 2fr 8fr 2fr;
+  grid-template-areas: 
+    ". post-header ."
+    ". post-content .";
 }
 
 .timeline_content{
@@ -19,6 +35,9 @@
 header{
   grid-area: header;
 }
+.wrapper{
+  grid-area: wrapper;
+}
 .logo{
   grid-area: logo;
 }
@@ -30,6 +49,12 @@ header{
   .content_wrapper{
     grid-area: timeline_content
   }
+}
+.post-header{
+  grid-area: post-header;
+}
+.post-content{
+  grid-area: post-content;
 }
 main{
   grid-area:main;
