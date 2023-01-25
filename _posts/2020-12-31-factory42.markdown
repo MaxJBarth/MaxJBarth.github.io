@@ -1,0 +1,48 @@
+---
+layout: post
+date:   2020-12-31 09:00:00 +0100
+title:  factory42
+subtitle: Salesforce Developer
+timespan: "May '19 – December ‘20"
+categories: Workplaces
+class: factory42
+---
+
+## Enabling Customers to get things done faster.
+**Salesforce Engineer with focus on LWC & Frontend**
+
+---
+
+### Tasks:
+
+**Salesforce:**
+Customize Salesforce for enterprise with focus on Sales and Community Cloud. LWCs, APEX, Triggers, Tests, Deployments.  
+**Studio:**
+Set up and support a film studio for webinars and online meetings. BlackMagic Design hardware & software and editing with Adobe Creative Cloud (PS, AI, PR, AE). 
+
+
+
+### Languages:
+Apex, HTML, CSS, JS
+
+### Way of working:
+Scrum
+
+### Tools:
+Salesforce, Jira, Slack, VSCode
+
+### Highlights:
+**Building LWC for B2C Shop**
+- understand the scale of the project and the requirements
+- advise the customer to find the best solution
+- coordination of development team
+- building highly functional LWCs
+
+**App Development**
+- working on a native AppExchange Application
+- making this table based app more visually appealing
+
+**Webinar Studio**
+- hardware
+- aufbau
+- aufzeichnung
