@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+nav.navigation{
+  position: fixed;
+  display: flex;
+  margin-left: 1rem;
+
+  a{
+    padding: 11px;
+    border-radius: 45px;
+    background-color: $color-black;
+    &:hover, &:active{
+      transition: background-color 0.2s ease;
+      background-color: $color-green;
+      
+    }
+    svg{
+      width: 42px;
+    }
+  }
+}

@@ -1,7 +1,7 @@
 footer{
   .wrapper{
     border-top: 1px solid;
-    border-color: $color-bitcoin;
+    border-color: $color-green;
     color: $color-white;
     display: flex;
     justify-content: center;
@@ -28,7 +28,7 @@ footer{
           fill: $color-white;
           transition: 0.3s;
           &:hover{
-            fill: $color-bitcoin;
+            fill: $color-green;
           }
         }
       }
